@@ -1,0 +1,37 @@
+# ESP-IDF build output
+/build/
+*.bin
+*.elf
+*.map
+*.log
+
+# ESP-IDF generated configuration
+sdkconfig
+sdkconfig.old
+
+# Core dumps
+core
+core.*
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python/IDF virtual environments
+.env/
+.venv/
+__pycache__/
+*.pyc
+
+# Archives
+*.zip
+*.tar.gz
+*.bak
+
+# Temporary files
+*~
