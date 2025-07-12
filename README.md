@@ -12,11 +12,12 @@ Bridge USB gamepads to Bluetooth using ESP32-S3.
 ## ⚠️ Current Development Stage
 
 - ✅ Licensing and repository structure complete
-- ✅ Initial USB input and BLE output logic scaffolded
-- 🛠️ USB parsing and HID report formatting **not yet implemented**
-- 🧪 All logic currently uses **stub/simulated input**
-- ⏳ Awaiting ESP32-S3 hardware delivery for integration testing
-- ❌ No functional gamepad transmission at this time
+- ✅ Modular display system (auto-probed; ST7789 supported)
+- ✅ Display fallback stub for headless boards
+- ✅ Core input/output logic scaffolded (USB → BLE architecture)
+- 🔄 BLE output and USB parsing still use stub data
+- 🚚 ESP32-S3 hardware is ordered — bring-up pending
+- ❌ Gamepad passthrough and HID translation not functional yet
 
 Use this codebase at your own risk — it's a work in progress.
 
