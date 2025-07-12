@@ -2,6 +2,23 @@
 
 Bridge USB gamepads to Bluetooth using ESP32-S3.
 
+> ![status](https://img.shields.io/badge/status-in%20development-orange)
+> **Project Status: In Development / Testing**  
+> This is early-stage firmware under active development.  
+> Core logic is in place, but the project is not yet functional — hardware is pending.  
+> Expect incomplete features, stub code, and placeholder implementations.
+
+## ⚠️ Current Development Stage
+
+- ✅ Licensing and repository structure complete
+- ✅ Initial USB input and BLE output logic scaffolded
+- 🛠️ USB parsing and HID report formatting **not yet implemented**
+- 🧪 All logic currently uses **stub/simulated input**
+- ⏳ Awaiting ESP32-S3 hardware delivery for integration testing
+- ❌ No functional gamepad transmission at this time
+
+Use this codebase at your own risk — it's a work in progress.
+
 ## Third-Party Code & Licenses
 
 PadBeacon uses or depends on the following third-party libraries:
