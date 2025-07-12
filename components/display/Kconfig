@@ -1,0 +1,21 @@
+menu "Display Support"
+
+config PADBEACON_HAS_DISPLAY
+    bool "Enable display support"
+    default n
+
+choice
+    prompt "Display Driver Type"
+    depends on PADBEACON_HAS_DISPLAY
+    default DISPLAY_DRIVER_ST7789
+
+config DISPLAY_DRIVER_ST7789
+    bool "ST7789 TFT Display"
+
+# Future drivers can go here:
+# config DISPLAY_DRIVER_SSD1306
+#     bool "SSD1306 OLED Display (I2C)"
+
+endchoice
+
+endmenu

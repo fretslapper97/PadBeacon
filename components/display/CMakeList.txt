@@ -1,0 +1,5 @@
+idf_component_register(SRCS
+    "display_stub.c"
+    "display_st7789.c"
+    INCLUDE_DIRS "."
+)
