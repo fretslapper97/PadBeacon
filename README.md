@@ -2,11 +2,12 @@
 
 Bridge USB gamepads to Bluetooth using ESP32-S3.
 
-> ![status](https://img.shields.io/badge/status-in%20development-orange)
-> **Project Status: In Development / Testing**  
-> This is early-stage firmware under active development.  
-> Core logic is in place, but the project is not yet functional — hardware is pending.  
-> Expect incomplete features, stub code, and placeholder implementations.
+![status](https://img.shields.io/badge/status-in%20development-orange)
+
+> 🚧 **Project Status: In Development / Testing**  
+> This firmware is in early development. Core logic is scaffolded, but it is **not yet functional**.  
+> USB and BLE features are currently using **stubbed input/output**.  
+> Hardware testing will begin once the ESP32-S3 arrives.
 
 ## ⚠️ Current Development Stage
 
